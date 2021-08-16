@@ -43,7 +43,7 @@
     "watch-html": "nodemon --watch src/views --ext html --exec \"npm run copy-views\"",
     "watch-js": "nodemon --watch src/js --ext js --exec \"npm-run-all js-lint js-compile\"",
     "watch-pug": "nodemon --watch src/pug --ext pug --exec \"npm run pug-dist\"",
-    "zip": "git archive -o coreui-free-bootstrap-admin-template-v$npm_package_version.zip -9 HEAD",
+    "zip": "git archive -o dist.zip -9 HEAD",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
